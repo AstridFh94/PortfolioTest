@@ -2,18 +2,18 @@
 
 function scrollFunction() {
   const scroll = document.getElementById("aboutPage");
-  scroll.scrollIntoView();
+  scroll.scrollIntoView({behavior: "smooth"});
 }
 
 
 function scrollFunction2() {
   const scroll = document.getElementById("skillsPage");
-  scroll.scrollIntoView();
+  scroll.scrollIntoView({behavior: "smooth"});
 }
 
 function scrollFunction3() {
   const scroll = document.getElementById("projectsPage");
-  scroll.scrollIntoView();
+  scroll.scrollIntoView({behavior: "smooth"});
 }
 
 
