@@ -8,11 +8,10 @@ body {
   scroll-behavior: smooth;
 }
 
-
-
 .nav{
   display: flex; /*Change to grid*/
   align-items: center;
+
 }
 
 #menu{
@@ -68,11 +67,11 @@ body {
 
 */
 .header2 {
-visibility: hidden;
-text-align: center;
-font-size: x-large;
-color: white;
-position: absolute;
+ visibility: hidden;
+ text-align: center;
+ font-size: x-large;
+ color: white;
+ position: absolute;
 }
 
 .header2:hover {
@@ -82,9 +81,9 @@ position: absolute;
 .underHeader{
   color: white;
   display: block;
- text-align: center;
- margin-bottom: 1,5%;
- font-size: larger;
+  text-align: center;
+  margin-bottom: 1,5%;
+  font-size: larger;
 }
 
 .pitch{
@@ -98,17 +97,17 @@ position: absolute;
 }
 
 #aboutPage{
-display: flex;
-justify-content: center;
-text-align: center;
-color: white;
-padding-bottom: 10%;
-padding-top: 2%;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ color: white;
+ padding-bottom: 10%;
+ padding-top: 2%;
 }
 
 .paragraph{
   color: white;
-  padding-bottom: 20%;
+  
   margin-left: 20%;
   margin-right: 5%;
   width: 25em;
@@ -121,8 +120,8 @@ padding-top: 2%;
   width: 22em;
   height: 22em;
   border-radius: 50%;
-  margin-right: 2%;
-  justify-content: space-between;
+  margin-right: 1,9%;
+ 
   
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -135,29 +134,31 @@ padding-top: 2%;
 }
 
 #skillsPage{
-display: flex;
-justify-content: center;
-text-align: center;
-color: white;
-padding-bottom: 10%;
-padding-top: 2%;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ color: white;
+ padding-bottom: 10%;
+ padding-top: 2%;
 }
 
 .icons, .adobe{
   align-items: center;
-  justify-content:space-around;
+  justify-content: center;
   display: flex;
-  margin: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-bottom: 2%;
 }
 
 
 #projectsPage{
-display: flex;
-justify-content: center;
-text-align: center;
-color: white;
-padding-bottom: 30%;
-padding-top: 2%;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ color: white;
+ padding-bottom: 30%;
+ padding-top: 2%;
 }
 
 .footer{
